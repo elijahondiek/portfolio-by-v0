@@ -67,7 +67,7 @@ const projects: Project[] = [
     category: "Cloud",
     difficulty: "Advanced",
     status: "Live",
-    image: "/placeholder.svg?height=300&width=400&query=aws serverless architecture diagram",
+    image: "/aws-serverless-architecture.png",
     githubUrl: "https://github.com/example/serverless-expense-tracker",
     liveUrl: "https://expense-tracker-aws.com",
     challenges: ["Cold start optimization", "Cost management", "Data consistency"],
@@ -85,7 +85,7 @@ const projects: Project[] = [
     category: "API",
     difficulty: "Intermediate",
     status: "Portfolio Piece",
-    image: "/placeholder.svg?height=300&width=400&query=social media api endpoints",
+    image: "/social-media-api.png",
     githubUrl: "https://github.com/example/social-media-api",
     challenges: ["Real-time notifications", "Content moderation", "Scalable voting system"],
     solutions: ["WebSocket connections", "ML content filtering", "Redis caching for votes"],
@@ -535,7 +535,7 @@ function ProjectCard({
         isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
       }`}
       style={{
-        transitionDelay: `${0.2 + index * 0.1}s`,
+        transitionDelay: `${0.1 + index * 0.05}s`, // Reduced from 0.2 + index * 0.1
       }}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}

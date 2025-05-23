@@ -471,7 +471,7 @@ export default function CommunityImpact() {
                       isVisible ? "translate-x-0 opacity-100" : "translate-x-10 opacity-0"
                     }`}
                     style={{
-                      transitionDelay: `${0.2 + index * 0.1}s`,
+                      transitionDelay: `${0.1 + index * 0.05}s`,
                     }}
                   >
                     {/* Timeline Dot */}

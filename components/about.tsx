@@ -30,8 +30,8 @@ export default function About() {
       opacity: 1,
       y: 0,
       transition: {
-        delay: i * 0.1, // Reduced from 0.2 to 0.1
-        duration: 0.4, // Reduced from 0.8 to 0.4
+        delay: i * 0.05, // Reduced from i * 0.1
+        duration: 0.3, // Reduced from 0.4
         ease: "easeOut",
       },
     }),

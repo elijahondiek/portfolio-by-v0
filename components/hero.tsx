@@ -121,8 +121,8 @@ export default function Hero() {
       opacity: 1,
       y: 0,
       transition: {
-        delay: i * 0.08 + 0.5,
-        duration: 0.6,
+        delay: i * 0.04 + 0.25, // Reduced from i * 0.08 + 0.5
+        duration: 0.4, // Reduced from 0.6
         ease: [0.16, 1, 0.3, 1],
       },
     }),
